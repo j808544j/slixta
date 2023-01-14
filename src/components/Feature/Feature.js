@@ -33,7 +33,7 @@ function Feature() {
         {
             features.map((feature) => {
                 return (
-                    <div className='feature-content-container' key={feature.svg} >
+                    <div className='feature-content-container' key={feature.title} >
                          {feature.svg}
                         <div className='feature-title'>
                             {feature.title}
